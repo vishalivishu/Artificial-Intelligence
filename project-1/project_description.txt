@@ -1,0 +1,32 @@
+DESCRIPTION:
+The Los Angeles Lakers are playing against their rivals the Boston Celtics tonight. Lakers star Jordan Clarkson wants to arrive earlier today to prepare himself for the game, and he is leaving from his mansion at Newport Coast to Staples Center. As everyone knows, Los Angeles is notorious for its traffic. Driving his 2016 Lamborghini Aventador, Jordan definitely does not want to be stuck in traffic. Please help Jordan find a route to get him to Staples Center as fast as possible.				
+To accomplish this,	you will be given a list of freeway of road intersections (i.e., locations) and the time it would take	to travel from	there to other	freeway or the road intersections. You will be required to create a program that finds the fastest route	Jordan must travel to get to Staples Center.
+
+SAMPLE INPUT:
+A*
+8
+JordanHome CA73/NewportCoastDr 5 
+CA73/NewportCoastDr I405/CA73 10 
+I405/CA73 I110/I405 25 
+I110/I405 I10/I110 20 
+I10/I110 I110/I405 30 
+I10/I110 I10/I405 9 
+I105/I110 I10/I110 7 
+I10/I110 StaplesCenter 3	
+8
+JordanHome 55 
+CA73/NewportCoastDr 50
+I405/CA73 40 
+I110/I405 28 
+I10/I110 8 
+I10/I405 39 
+I105/I110 23 
+StaplesCenter 0	
+
+SAMPLE OUTPUT:
+JordanHome 0 
+CA73/NewportCoastDr 5 
+I405/CA73 15 
+I110/I405 40 
+I10/I110 60 
+StaplesCenter 63
